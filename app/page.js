@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   const Navbar = () => {
@@ -11,8 +12,8 @@ export default function Home() {
           <img src="/logo.png" alt="Logo" />{" "}
         </div>
         <div className={styles.links}>
-          <a href="/about">About</a>
-          <a href="/donate">Donate</a>
+          {/* <a href="/about">About</a>
+          <a href="/donate">Donate</a> */}
         </div>
       </nav>
     );
@@ -45,22 +46,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.buttonContainer}>
         <button className={styles.button} onClick={openVoiceflowChat}>
-          Racial and Ethnic Minorities Disproportionate Impact
-        </button>
-        <button className={styles.button}>
-          Women and Girls Global Inequality
-        </button>
-        <button className={styles.button}>
-          LGBTQ+ Community Discrimination and Violence
-        </button>
-        <button className={styles.button}>
-          Indigenous Peoples Marginalization and Land Rights
-        </button>
-        <button className={styles.button}>
-          Persons with Disabilities Accessibility and Discrimination
-        </button>
-        <button className={styles.button}>
-          Refugees and Displaced Persons Forced Displacement
+          Let's talk...
         </button>
       </div>
     </div>
