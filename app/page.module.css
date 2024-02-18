@@ -24,3 +24,25 @@
   height: 100vh;
   gap: 40px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ffffff; /* Example background color */
+}
+
+.logo img {
+  height: 50px; /* Example height, adjust as needed */
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333; /* Example text color */
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
